@@ -52,5 +52,5 @@ jobs:
       # Construction et push de l'image Docker
       - name: Build & Push Docker image
         run: |
-          docker build -t ${{ secrets.DOCKER_USERNAME }}/mon-projet-node:latest .
-          docker push ${{ secrets.DOCKER_USERNAME }}/mon-projet-node:latest
+          docker build -t ${{ secrets.DOCKER_USERNAME }}/examen-node-app:latest .
+          docker push ${{ secrets.DOCKER_USERNAME }}/examen-node-app:latest
